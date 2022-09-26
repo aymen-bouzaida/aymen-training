@@ -14,10 +14,13 @@ class MovieTableViewCell: UITableViewCell {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     
-    var movie : Movie? {
+    var cellViewModel: MovieCellViewModel? {
         didSet {
-            titleLabel.text = ""
-            descriptionLabel.text = ""
+            titleLabel.text = cellViewModel?.title
+            descriptionLabel.text = cellViewModel?.description
+            if let imagePath = cellViewModel?.imageFullPath, let imageUrl = URL(string: imagePath){
+                movieImage.load(url: imageUrl)
+            }
         }
     }
     
@@ -28,8 +31,6 @@ class MovieTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
 }

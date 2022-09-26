@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7877652E28DAF0CA00A67F43 /* MoviePager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877652D28DAF0CA00A67F43 /* MoviePager.swift */; };
+		78A0F70428DDE40D004A85A9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0F70328DDE40D004A85A9 /* UIImage+Extension.swift */; };
+		78AAD5BC28D9B5CA00781F7C /* MovieCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AAD5BB28D9B5CA00781F7C /* MovieCellViewModel.swift */; };
+		78AAD5C028D9FE9400781F7C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78AAD5BF28D9FE9400781F7C /* Alamofire */; };
+		78ABCB0528DC9B2900D9BB31 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 78ABCB0428DC9B2900D9BB31 /* RxCocoa */; };
+		78ABCB0728DC9B2900D9BB31 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 78ABCB0628DC9B2900D9BB31 /* RxSwift */; };
+		78ADFB6928E19B4C00C51EB3 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ADFB6728E19B4C00C51EB3 /* MovieDetailsViewController.swift */; };
+		78ADFB6A28E19B4C00C51EB3 /* MovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78ADFB6828E19B4C00C51EB3 /* MovieDetailsViewController.xib */; };
 		78BBA6EB28D8B10900365DBB /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBA6E928D8B10900365DBB /* MovieTableViewCell.swift */; };
 		78BBA6EC28D8B10900365DBB /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BBA6EA28D8B10900365DBB /* MovieTableViewCell.xib */; };
 		78E4C57F28D8865400B49066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C57E28D8865400B49066 /* AppDelegate.swift */; };
@@ -15,13 +23,12 @@
 		78E4C58628D8865400B49066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E4C58428D8865400B49066 /* Main.storyboard */; };
 		78E4C58828D8865500B49066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E4C58728D8865500B49066 /* Assets.xcassets */; };
 		78E4C58B28D8865500B49066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E4C58928D8865500B49066 /* LaunchScreen.storyboard */; };
-		78E4C59628D8865500B49066 /* aymen_training_planTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C59528D8865500B49066 /* aymen_training_planTests.swift */; };
-		78E4C5A028D8865500B49066 /* aymen_training_planUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C59F28D8865500B49066 /* aymen_training_planUITests.swift */; };
-		78E4C5A228D8865500B49066 /* aymen_training_planUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C5A128D8865500B49066 /* aymen_training_planUITestsLaunchTests.swift */; };
+		78E4C59628D8865500B49066 /* AymenTrainingPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C59528D8865500B49066 /* AymenTrainingPlanTests.swift */; };
+		78E4C5A028D8865500B49066 /* AymenTrainingPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C59F28D8865500B49066 /* AymenTrainingPlanUITests.swift */; };
+		78E4C5A228D8865500B49066 /* AymenTrainingPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4C5A128D8865500B49066 /* AymenTrainingPlanUITestsLaunchTests.swift */; };
 		78EF554328D8BA68003D0933 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF554228D8BA68003D0933 /* MoviesViewModel.swift */; };
-		78EF554628D8BAE8003D0933 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF554528D8BAE8003D0933 /* MovieDetailViewController.swift */; };
 		78EF554928D8BCC5003D0933 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF554828D8BCC5003D0933 /* MoviesService.swift */; };
-		78EF554C28D8C01D003D0933 /* MovieObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF554B28D8C01D003D0933 /* MovieObject.swift */; };
+		78EF554C28D8C01D003D0933 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF554B28D8C01D003D0933 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7877652D28DAF0CA00A67F43 /* MoviePager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePager.swift; sourceTree = "<group>"; };
+		78A0F70328DDE40D004A85A9 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		78AAD5BB28D9B5CA00781F7C /* MovieCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellViewModel.swift; sourceTree = "<group>"; };
+		78ADFB6728E19B4C00C51EB3 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		78ADFB6828E19B4C00C51EB3 /* MovieDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailsViewController.xib; sourceTree = "<group>"; };
 		78BBA6E928D8B10900365DBB /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		78BBA6EA28D8B10900365DBB /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 		78E4C57B28D8865400B49066 /* aymen-training-plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aymen-training-plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,14 +65,13 @@
 		78E4C58A28D8865500B49066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78E4C58C28D8865500B49066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78E4C59128D8865500B49066 /* aymen-training-planTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aymen-training-planTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E4C59528D8865500B49066 /* aymen_training_planTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aymen_training_planTests.swift; sourceTree = "<group>"; };
+		78E4C59528D8865500B49066 /* AymenTrainingPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AymenTrainingPlanTests.swift; sourceTree = "<group>"; };
 		78E4C59B28D8865500B49066 /* aymen-training-planUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aymen-training-planUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E4C59F28D8865500B49066 /* aymen_training_planUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aymen_training_planUITests.swift; sourceTree = "<group>"; };
-		78E4C5A128D8865500B49066 /* aymen_training_planUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aymen_training_planUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78E4C59F28D8865500B49066 /* AymenTrainingPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AymenTrainingPlanUITests.swift; sourceTree = "<group>"; };
+		78E4C5A128D8865500B49066 /* AymenTrainingPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AymenTrainingPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78EF554228D8BA68003D0933 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
-		78EF554528D8BAE8003D0933 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		78EF554828D8BCC5003D0933 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
-		78EF554B28D8C01D003D0933 /* MovieObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieObject.swift; sourceTree = "<group>"; };
+		78EF554B28D8C01D003D0933 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78ABCB0728DC9B2900D9BB31 /* RxSwift in Frameworks */,
+				78ABCB0528DC9B2900D9BB31 /* RxCocoa in Frameworks */,
+				78AAD5C028D9FE9400781F7C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A0F70228DDE3F7004A85A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78A0F70328DDE40D004A85A9 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		78ADFB6528E19B0100C51EB3 /* MoviesVC */ = {
+			isa = PBXGroup;
+			children = (
+				78BBA6E828D8B0DC00365DBB /* cell */,
+				78E4C58228D8865400B49066 /* MoviesViewController.swift */,
+			);
+			path = MoviesVC;
+			sourceTree = "<group>";
+		};
+		78ADFB6628E19B2000C51EB3 /* DetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				78ADFB6728E19B4C00C51EB3 /* MovieDetailsViewController.swift */,
+				78ADFB6828E19B4C00C51EB3 /* MovieDetailsViewController.xib */,
+			);
+			path = DetailsVC;
+			sourceTree = "<group>";
+		};
 		78BBA6E828D8B0DC00365DBB /* cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +160,7 @@
 		78E4C57D28D8865400B49066 /* aymen-training-plan */ = {
 			isa = PBXGroup;
 			children = (
+				78A0F70228DDE3F7004A85A9 /* Extension */,
 				78EF554A28D8C012003D0933 /* Model */,
 				78EF554728D8BCAD003D0933 /* Service */,
 				78EF554428D8BAC3003D0933 /* Controllers */,
@@ -137,7 +178,7 @@
 		78E4C59428D8865500B49066 /* aymen-training-planTests */ = {
 			isa = PBXGroup;
 			children = (
-				78E4C59528D8865500B49066 /* aymen_training_planTests.swift */,
+				78E4C59528D8865500B49066 /* AymenTrainingPlanTests.swift */,
 			);
 			path = "aymen-training-planTests";
 			sourceTree = "<group>";
@@ -145,8 +186,8 @@
 		78E4C59E28D8865500B49066 /* aymen-training-planUITests */ = {
 			isa = PBXGroup;
 			children = (
-				78E4C59F28D8865500B49066 /* aymen_training_planUITests.swift */,
-				78E4C5A128D8865500B49066 /* aymen_training_planUITestsLaunchTests.swift */,
+				78E4C59F28D8865500B49066 /* AymenTrainingPlanUITests.swift */,
+				78E4C5A128D8865500B49066 /* AymenTrainingPlanUITestsLaunchTests.swift */,
 			);
 			path = "aymen-training-planUITests";
 			sourceTree = "<group>";
@@ -155,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				78EF554228D8BA68003D0933 /* MoviesViewModel.swift */,
+				78AAD5BB28D9B5CA00781F7C /* MovieCellViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -162,9 +204,8 @@
 		78EF554428D8BAC3003D0933 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				78BBA6E828D8B0DC00365DBB /* cell */,
-				78EF554528D8BAE8003D0933 /* MovieDetailViewController.swift */,
-				78E4C58228D8865400B49066 /* MoviesViewController.swift */,
+				78ADFB6628E19B2000C51EB3 /* DetailsVC */,
+				78ADFB6528E19B0100C51EB3 /* MoviesVC */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,7 +221,8 @@
 		78EF554A28D8C012003D0933 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				78EF554B28D8C01D003D0933 /* MovieObject.swift */,
+				78EF554B28D8C01D003D0933 /* Movie.swift */,
+				7877652D28DAF0CA00A67F43 /* MoviePager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,12 +237,18 @@
 				78E4C57728D8865400B49066 /* Sources */,
 				78E4C57828D8865400B49066 /* Frameworks */,
 				78E4C57928D8865400B49066 /* Resources */,
+				78AAD5BD28D9F3F000781F7C /* Linter */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "aymen-training-plan";
+			packageProductDependencies = (
+				78AAD5BF28D9FE9400781F7C /* Alamofire */,
+				78ABCB0428DC9B2900D9BB31 /* RxCocoa */,
+				78ABCB0628DC9B2900D9BB31 /* RxSwift */,
+			);
 			productName = "aymen-training-plan";
 			productReference = 78E4C57B28D8865400B49066 /* aymen-training-plan.app */;
 			productType = "com.apple.product-type.application";
@@ -273,6 +321,10 @@
 				Base,
 			);
 			mainGroup = 78E4C57228D8865400B49066;
+			packageReferences = (
+				78AAD5BE28D9FE9400781F7C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				78ABCB0328DC9B2900D9BB31 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 78E4C57C28D8865400B49066 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -293,6 +345,7 @@
 				78BBA6EC28D8B10900365DBB /* MovieTableViewCell.xib in Resources */,
 				78E4C58828D8865500B49066 /* Assets.xcassets in Resources */,
 				78E4C58628D8865400B49066 /* Main.storyboard in Resources */,
+				78ADFB6A28E19B4C00C51EB3 /* MovieDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +365,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78AAD5BD28D9F3F000781F7C /* Linter */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Linter;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78E4C57728D8865400B49066 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,9 +395,12 @@
 				78BBA6EB28D8B10900365DBB /* MovieTableViewCell.swift in Sources */,
 				78E4C57F28D8865400B49066 /* AppDelegate.swift in Sources */,
 				78E4C58128D8865400B49066 /* SceneDelegate.swift in Sources */,
+				78AAD5BC28D9B5CA00781F7C /* MovieCellViewModel.swift in Sources */,
+				78ADFB6928E19B4C00C51EB3 /* MovieDetailsViewController.swift in Sources */,
 				78EF554928D8BCC5003D0933 /* MoviesService.swift in Sources */,
-				78EF554628D8BAE8003D0933 /* MovieDetailViewController.swift in Sources */,
-				78EF554C28D8C01D003D0933 /* MovieObject.swift in Sources */,
+				7877652E28DAF0CA00A67F43 /* MoviePager.swift in Sources */,
+				78EF554C28D8C01D003D0933 /* Movie.swift in Sources */,
+				78A0F70428DDE40D004A85A9 /* UIImage+Extension.swift in Sources */,
 				78EF554328D8BA68003D0933 /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E4C59628D8865500B49066 /* aymen_training_planTests.swift in Sources */,
+				78E4C59628D8865500B49066 /* AymenTrainingPlanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +417,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E4C5A228D8865500B49066 /* aymen_training_planUITestsLaunchTests.swift in Sources */,
-				78E4C5A028D8865500B49066 /* aymen_training_planUITests.swift in Sources */,
+				78E4C5A228D8865500B49066 /* AymenTrainingPlanUITestsLaunchTests.swift in Sources */,
+				78E4C5A028D8865500B49066 /* AymenTrainingPlanUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +737,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78AAD5BE28D9FE9400781F7C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		78ABCB0328DC9B2900D9BB31 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78AAD5BF28D9FE9400781F7C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78AAD5BE28D9FE9400781F7C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		78ABCB0428DC9B2900D9BB31 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78ABCB0328DC9B2900D9BB31 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		78ABCB0628DC9B2900D9BB31 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78ABCB0328DC9B2900D9BB31 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78E4C57328D8865400B49066 /* Project object */;
 }

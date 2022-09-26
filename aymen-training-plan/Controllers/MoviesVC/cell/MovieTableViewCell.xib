@@ -16,31 +16,35 @@
                 <rect key="frame" x="0.0" y="0.0" width="446" height="150"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i8O-vM-BL8">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default-movie" translatesAutoresizingMaskIntoConstraints="NO" id="i8O-vM-BL8">
                         <rect key="frame" x="24" y="15" width="80" height="120"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="80" id="DkW-YF-fa8"/>
                             <constraint firstAttribute="height" constant="120" id="spb-sC-Q88"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6gz-cL-vMc">
-                        <rect key="frame" x="116" y="27" width="306" height="49"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="6gz-cL-vMc">
+                        <rect key="frame" x="116" y="27" width="306" height="45"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCg-Vj-VNG">
                                 <rect key="frame" x="0.0" y="0.0" width="306" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="URZ-Ta-Tu8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyQ-o5-hUG">
-                                <rect key="frame" x="0.0" y="28.5" width="306" height="20.5"/>
+                                <rect key="frame" x="0.0" y="24.5" width="306" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="6gz-cL-vMc" firstAttribute="top" secondItem="i8O-vM-BL8" secondAttribute="top" constant="12" id="64y-it-LPw"/>
                     <constraint firstItem="i8O-vM-BL8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ski-gF-Lgb"/>
@@ -61,4 +65,7 @@
             <point key="canvasLocation" x="-379.71014492753625" y="-14.732142857142856"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="default-movie" width="200" height="300"/>
+    </resources>
 </document>

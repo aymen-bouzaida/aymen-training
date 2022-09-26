@@ -1,0 +1,14 @@
+disabled_rules: # rule identifiers to exclude from running
+
+  # - control_statement
+ 
+  - trailing_whitespace
+  - opening_brace
+  - vertical_whitespace
+  
+line_length:
+  warning: 200
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
